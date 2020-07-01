@@ -23,7 +23,7 @@ public class ZooAppV1 {
         /** add animal to correct zoo */
         aquaria.addAnimals(cichlid);
 
-         System.out.println(cichlid.getName());
+         // System.out.println(cichlid.getName());
         aquaria.printAllZooAnimals();
         // System.out.println(cichlid.name);
     }
