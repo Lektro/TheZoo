@@ -1,6 +1,3 @@
-package be.vdab.zoo.animals;
-
-import be.vdab.zoo.Zoo;
 
 public abstract class Animals extends Zoo {
 

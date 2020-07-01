@@ -1,7 +1,3 @@
-package be.vdab.zoo;
-
-import be.vdab.zoo.animals.insects.Butterfly;
-
 public abstract class InsectZoo extends Zoo {
 
     /** Class Variables */
