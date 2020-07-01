@@ -1,3 +1,7 @@
+package be.vdab.zoo.animals.fish;
+
+import be.vdab.zoo.animals.Animals;
+
 public abstract class Fish extends Animals {
 
 
