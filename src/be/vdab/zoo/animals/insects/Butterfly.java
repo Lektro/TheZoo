@@ -10,6 +10,11 @@ public abstract class Butterfly extends Animals {
     /** Default Constructor */
     public Butterfly (){}
 
+    /** Constructor with all variables */
+    public Butterfly(String name, int age, int weight, char sex, String color) {
+        super(name, age, weight, sex, color);
+    }
+
     public void chirp(){
         System.out.println("The bird is chirping!");
     }
