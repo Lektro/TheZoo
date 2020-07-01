@@ -8,14 +8,14 @@ public class Aquaria extends Zoo {
 
     /** Constructors */
     public Aquaria() {
-        cichlids = new Cichlid[0];
+        this.cichlids = new Cichlid[0];
 
 
     }
     /** auto-gen get and set */
 
         public Cichlid[] getCichlids() {
-            return cichlids;
+            return this.cichlids;
         }
 
         public void setCichlids(Cichlid[] cichlids) {
@@ -27,9 +27,18 @@ public class Aquaria extends Zoo {
 
     }
 
-    @Override
+
     public void printAllZooAnimals() {
-        System.out.println("All the fishes in the Aquarium are: " + getCichlids());
+        System.out.println("All the fishes in the Aquarium are:" + cichlids.length);
+
+        for (int i = 0; i < this.cichlids.length ; i++) {
+            System.out.println("Printing number: " + i);
+            System.out.println(animal());
+        }
+//        for (Cichlid c : cichlids) {
+//            System.out.println(c.getName() + " " + c.getAge());
+//
+//        }
     }
 }
 

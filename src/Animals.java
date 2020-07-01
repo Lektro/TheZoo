@@ -12,7 +12,7 @@ public abstract class Animals extends Zoo {
     public Animals(){}
 
     /** Constructor with all variables */
-    public Animals(String name, int age, int weight, char sex, String color){}
+    public Animals(String name, int age, double weight, char sex, String color){}
 
 
     /** getters and setters for variables */
