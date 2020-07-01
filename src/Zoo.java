@@ -1,2 +1,3 @@
-public class Zoo {
+class Zoo extends ZooAppV1 {
+
 }
