@@ -1,9 +1,9 @@
-public class Animals extends Zoo {
+public abstract class Animals extends Zoo {
 
     /** Class variables */
     public String name;
     public int age;
-    public int weight;
+    public double weight;
     public char sex;
     public String color;
 
@@ -31,7 +31,7 @@ public class Animals extends Zoo {
         this.age = age;
     }
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 
