@@ -1,4 +1,3 @@
-
 public abstract class Animals extends Zoo {
 
     /** Class variables */
@@ -13,7 +12,6 @@ public abstract class Animals extends Zoo {
 
     /** Constructor with all variables */
     public Animals(String name, int age, double weight, char sex, String color){}
-
 
     /** getters and setters for variables */
     public String getName() {
