@@ -1,4 +1,6 @@
-public class Fish extends Animals {
+public abstract class Fish extends Animals {
+
+
     /** Default Constructor */
     public Fish (){}
 
