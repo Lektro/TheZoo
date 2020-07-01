@@ -1,7 +1,16 @@
 public abstract class Fish extends Animals{
 
+    /** Class variables */
     private boolean canBreathUnderwater;
-    private String color;
+    private boolean hasFins;
+
+    /** Default Constructor */
+    public Fish (){}
+
+    /** Constructor with all variables */
+    public Fish(String name, int age, int weight, char sex, String hasFins) {
+        super(name, age, weight, sex, hasFins);
+    }
 
     public boolean isCanBreathUnderwater() {
         return canBreathUnderwater;
@@ -11,33 +20,20 @@ public abstract class Fish extends Animals{
         this.canBreathUnderwater = canBreathUnderwater;
     }
 
-    @Override
-    public String getColor() {
-        return color;
+    public boolean isHasFins() {
+        return hasFins;
     }
 
-    @Override
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    /** Default Constructor */
-    public Fish (){}
-
-    /** Constructor with all variables */
-    public Fish(String name, int age, int weight, char sex, String color) {
-        super(name, age, weight, sex, color);
-
+    public void setHasFins(boolean hasFins) {
+        this.hasFins = hasFins;
     }
 
     @Override
     public void addAnimals(Animals animal) {
-
     }
 
     @Override
     public void printAllZooAnimals() {
-
     }
 }
 

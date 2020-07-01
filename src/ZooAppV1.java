@@ -16,9 +16,7 @@ public class ZooAppV1 {
         /** Name the animal */
         cichlid.setName("Fronske");
 
-        System.out.println(cichlid);
-        
-
+        System.out.println(cichlid.getName());
 
     }
 }

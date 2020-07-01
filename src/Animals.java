@@ -48,11 +48,4 @@ public abstract class Animals extends Zoo {
         this.sex = sex;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
 }

@@ -1,4 +1,4 @@
-public abstract class Zoo extends ZooAppV1{
+public abstract class Zoo {
 
     /** add animals to zoo */
     public abstract void addAnimals (Animals animal);
