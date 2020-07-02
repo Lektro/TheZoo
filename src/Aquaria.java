@@ -19,22 +19,20 @@ public class Aquaria extends Zoo {
     @Override
     public void addAnimals(Animals animal) {
 
-        if (animal instanceof Cichlid) {
             Cichlid[] result = new Cichlid[cichlids.length + 1];
             for (int i = 0; i < cichlids.length; i++) {
                 result[i] = cichlids[i];
             }
             result[result.length - 1] = (Cichlid) animal;
             cichlids = result;
-        }
     }
 
     @Override
     public void printAllZooAnimals() {
-        System.out.print("All the fishes in the Aquarium are: ");
+        System.out.print("All the fish in the Aquarium are: ");
 
         for (Cichlid c : cichlids) {
-            System.out.print(c.getName() + " " );
+            System.out.print(c.getName() + " " + c.getAge() + " " + c.getSex() + " This fish is from Lake Malawi: " + c.isFromLakeMalawi() + " ");
         }
     }
 }

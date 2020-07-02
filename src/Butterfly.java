@@ -12,7 +12,7 @@ public abstract class Butterfly extends Animals {
     }
 
     public void chirp(){
-        System.out.println("The bird is chirping!");
+        System.out.println("The butterfly is flappin around");
     }
 
     public boolean isCanFly() {

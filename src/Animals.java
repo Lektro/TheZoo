@@ -14,9 +14,7 @@ public abstract class Animals extends Zoo {
     public Animals(String name, int age, double weight, char sex, String color){}
 
     /** getters and setters for variables */
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
     public void setName(String name) {
         this.name = name;
